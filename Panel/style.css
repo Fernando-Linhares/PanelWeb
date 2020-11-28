@@ -1,0 +1,130 @@
+		body{
+			background-image: url("image.png");
+			background-size: 100%;
+		}
+		.panel-itens{
+			display: inline-block;
+			padding: 20px;
+			margin: 30px;
+		}
+		#f{
+			border: solid #3b5998;
+			color: #3b5998;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#f:hover{
+			border: solid  white;
+			color: white;
+			border-radius: 5px;
+			width: 15%;
+			background: #3b5998;
+		}
+		#y{
+			border: solid #c4302b;
+			color: #c4302b;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#y:hover{
+			border: solid #c4302b;
+			color: white;
+			background: #c4302b;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#w{
+			border: solid #006400;
+			color: #006400;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#w:hover{
+			border: solid white;
+			color: white;
+			background: #006400;
+			border-radius: 5px;
+			width: 15%;
+		}
+
+		#n{
+			border: solid #ff2800;
+			color: #ff2800;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#n:hover{
+			border: solid #ff2800;
+			color: white;
+			background: #ff2800;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#g{
+			border: solid #db4a39;
+			color: #db4a39;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#g:hover{
+			border: solid white;
+			color: white;
+			background: #db4a39;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#gh{
+			border: solid  #171515;
+			color:  #171515;
+			border-radius: 5px;
+			width: 15%;
+		}
+		#gh:hover{
+			border: solid  #171515;
+			color:  white;
+			background: #171515;
+			border-radius: 5px;
+			width: 15%;
+		}
+		.app{
+			background: white;
+			opacity: 0.8;
+		}
+		@media (max-width: 600px) {
+			.app{
+			margin: auto;
+			text-align: center;
+			box-shadow: 1px 1px 5px grey;
+			border-radius: 5px;
+			padding 20px;
+			width: 80%;
+			
+		}
+
+
+		}
+		@media (min-width:600px) {
+			.app{
+			margin: auto;
+			text-align: center;
+			box-shadow: 1px 1px 5px grey;
+			border-radius: 5px;
+			padding 20px;
+			width: 60%;
+			
+		}
+		
+		
+		}
+		@media (max-width: 480px) {
+			.app{
+			margin: auto;
+			text-align: center;
+			box-shadow: 1px 1px 5px grey;
+			border-radius: 5px;
+			padding 20px;
+			width: 100%;
+			
+		}
+		
+		}
